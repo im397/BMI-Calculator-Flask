@@ -28,17 +28,17 @@ def bmiCategory(bmi):
     return category
 
 
-def main():
-    feet = float(input("Enter height:\n\tfeet: "))
-    inches = float(input("\tinches: "))
-    pounds = float(input("Enter weight\n\tpounds: "))
-
-    inches = (feet * 12) + inches
-
-    meters = in2m(inches)
-    kilos = lb2kg(pounds)
-
-    bmi = calcBMI(meters, kilos)
-    category = bmiCategory(bmi)
-
-    return bmi, category
+#def main():
+#    feet = float(input("Enter height:\n\tfeet: "))
+#    inches = float(input("\tinches: "))
+#    pounds = float(input("Enter weight\n\tpounds: "))
+#
+#    inches = (feet * 12) + inches
+#
+#    meters = in2m(inches)
+#    kilos = lb2kg(pounds)
+#
+#    bmi = calcBMI(meters, kilos)
+#    category = bmiCategory(bmi)
+#
+#    return bmi, category
